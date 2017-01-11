@@ -1,0 +1,16 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat:400,700);
+
+:root {
+--hoehe: 40px;
+--weite: 6em;
+}
+
+.box {margin:100px 100px; padding:10px 10px; border:1px solid black; background:silver;}
+
+.outside 		{text-indent:var(--weite); line-height:var(--hoehe);}
+.sensebox 		{text-indent:var(--weite); line-height:var(--hoehe);}
+.corridor 		{text-indent:var(--weite); line-height:var(--hoehe);}
+.bed 			{text-indent:var(--weite); line-height:var(--hoehe);}
+.living 		{text-indent:var(--weite); line-height:var(--hoehe);}
+.livingliving 	{text-indent:var(--weite); line-height:var(--hoehe);}
+
