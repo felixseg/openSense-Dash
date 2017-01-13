@@ -1,16 +1,36 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat:400,700);
 
 :root {
---hoehe: 80px;
---weite: 6em;
+--hoehe: 40px;
+--weite: 100px;
 }
 
-.box {margin:100px 100px; padding:10px 10px; border:1px solid black; background:silver;}
 
-.outside 		{text-indent:var(--weite); line-height:var(--hoehe);}
-.sensebox 		{text-indent:var(--weite); line-height:var(--hoehe);}
-.corridor 		{text-indent:var(--weite); line-height:var(--hoehe);}
-.bed 			{text-indent:var(--weite); line-height:var(--hoehe);}
-.living 		{text-indent:var(--weite); line-height:var(--hoehe);}
-.livingliving 	{text-indent:var(--weite); line-height:var(--hoehe);}
+.box {margin-left:250px; margin-top:30px; margin-right:20px; margin-bottom:0px; border:1px solid white; background: #ffffff;}
 
+
+.ENimg			{position: relative; display:block; margin-right:5px; margin-left: auto; top:5px; bottom: auto;}
+.DEimg			{position: relative; display:block; margin-right:110px; margin-left: auto; top:-55px; bottom: auto;}
+.title			{text-indent:calc(var(--weite) - 20px); line-height:var(--hoehe);}
+.temperature 	{text-indent:var(--weite); line-height:var(--hoehe);}
+.humidity 		{text-indent:var(--weite); line-height:var(--hoehe);}
+.airpressure 	{text-indent:var(--weite); line-height:var(--hoehe);}
+.illuminance	{text-indent:var(--weite); line-height:var(--hoehe);}
+.uv			 	{text-indent:var(--weite); line-height:var(--hoehe);}
+.noise		 	{text-indent:var(--weite); line-height:var(--hoehe);}
+.distance		{text-indent:var(--weite); line-height:var(--hoehe);}
+.wifi		 	{text-indent:var(--weite); line-height:var(--hoehe);}
+.voltage		{text-indent:var(--weite); line-height:var(--hoehe);}
+
+
+.inputbox {
+    display: block;
+    margin: 0 auto;
+	margin-top: calc(25% - 185px);
+}
+
+.inputbutton {
+    display: block;
+    margin: 0 auto;
+	margin-top: 10px;
+}
