@@ -3,7 +3,10 @@ function seturl () {
  
   apiurl = "https://api.opensensemap.org/boxes/" + senseboxid;
  
-  alert(apiurl);
+  //alert(apiurl);
+  window.open(apiurl);
 }
 
 document.getElementById("sendSenseID").onclick = seturl;
+
+
