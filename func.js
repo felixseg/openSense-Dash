@@ -1,12 +1,5 @@
-function seturl () {
-  var senseboxid = document.getElementById("senseID").value;
- 
-  apiurl = "https://api.opensensemap.org/boxes/" + senseboxid;
- 
-  //alert(apiurl);
-  window.open(apiurl);
-}
+	var search = window.location.search;
+	var senseboxid = search.split("=")
 
-document.getElementById("sendSenseID").onclick = seturl;
-
-
+	apiurl = "https://api.opensensemap.org/boxes/" + senseboxid[1];
+	
