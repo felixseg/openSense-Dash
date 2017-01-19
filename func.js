@@ -12,10 +12,45 @@
 	
 	
 	var sensors = {
-			  "name": {
+			 "name": {
 			    "name": "titlesp"
 			  },
-			  "name": {
-				"name": "titlesp"
+
+			 "Temperatur": {
+				"value": "temperaturesp"
+			  },
+
+			 "rel. Luftfeuchte": {
+			     "value": "humiditysp"
+			  },
+							  
+			 "Luftdruck": {
+			     "value": "airpressuresp"
+			  },
+								 
+		     "Beleuchtungsstärke": {
+			     "value": "illuminancesp"
+			  },							  
+		     				  
+			 "UV-Intensität": {
+				 "value": "uvsp"
 			  },			  
+			  
+			 "Schall": {
+			     "value": "noisesp"
+			  },
+			  
+		     /*"rel. Luftfeuchte": {
+		     	 "value": "distancesp"
+			  }, */
+			  
+			 "Wifi-Stärke": {
+		    	 "value": "wifisp"
+			  },
+			  
+			 "Eingangsspannung": {
+			     "value": "voltagesp"
+			  },
+			  
+			  alert(temperaturesp);
 	}

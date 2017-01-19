@@ -34,3 +34,54 @@
     margin: 0 auto;
 	margin-top: 10px;
 }
+
+
+.titlesp {
+	font-style:italic; font-weight:bold;
+	
+}
+
+.temperaturesp {
+	font-style:italic;
+	
+}
+
+.humiditysp {
+	font-style:italic;
+	
+}
+
+.airpressuresp {
+	font-style:italic;
+	
+}
+
+.illuminancesp {
+	font-style:italic;
+	
+}
+
+.uvsp {
+	font-style:italic;
+	
+}
+
+.noisesp {
+	font-style:italic;
+	
+}
+
+.distancesp {
+	font-style:italic;
+	
+}
+
+.wifisp {
+	font-style:italic;
+	
+}
+
+.voltagesp {
+	font-style:italic;
+	
+}
